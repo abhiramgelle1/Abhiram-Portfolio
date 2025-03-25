@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Abhiram Gelle</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+  <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/magnific-popup.css">
+  <link rel="stylesheet" href="css/aos.css">
+  <link rel="stylesheet" href="css/ionicons.min.css">
+  <link rel="stylesheet" href="css/flaticon.css">
+  <link rel="stylesheet" href="css/icomoon.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <style>
+    /* Custom styles from resume */
+    .about-mf .box-shadow-full {
+      padding-top: 4rem;
+      padding-bottom: 4rem;
+    }
+
+    .about-mf .about-img {
+      margin-bottom: 2rem;
+    }
+
+    .about-mf .about-img img {
+      margin-left: 10px;
+    }
+
+    .skill-mf .progress {
+      margin: .5rem 0 1.2rem 0;
+      border-radius: 0;
+      height: .7rem;
+    }
+
+    .skill-mf .progress .progress-bar {
+      height: .7rem;
+      background-color: #ffbd39;
+    }
+
+    /* Animation styles */
+    #typing-animation {
+      position: relative;
+      font-size: 30px;
+      font-weight: bold;
+      color: rgb(255, 255, 255);
+      overflow: hidden;
+      white-space: nowrap;
+      animation: typing 3s steps(20, end) infinite;
+    }
+
+    #typing-animation:before {
+      content: "";
+      top: 0;
+      left: 0;
+      width: 0;
+      height: 100%;
+      background-color: #ccc;
+      animation: typing-cursor 0.5s ease-in-out infinite;
+    }
+
+    @keyframes typing {
+      from {
+        width: 0;
+      }
+
+      to {
+        width: 100%;
+      }
+    }
+
+    @keyframes typing-cursor {
+      from {
+        width: 5px;
+      }
+
+      to {
+        width: 0;
+      }
+    }
+
+    /* project image zoom effect */
+    .zoom-effect {
+      overflow: hidden;
+      transition: transform 0.3s ease-out;
+    }
+
+    .zoom-effect:hover {
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+
+  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Abhiram Gelle</a>
+      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse"
+        data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="oi oi-menu"></span> Menu
+      </button>
+      <div class="collapse navbar-collapse" id="ftco-nav">
+        <ul class="navbar-nav nav ml-auto">
+          <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+          <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+          <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
+          <li class="nav-item"><a href="#project-section" class="nav-link"><span>Projects</span></a></li>
+          <li class="nav-item"><a href="#blogs-section" class="nav-link"><span>Blogs</span></a></li>
+          <li class="nav-item"><a href="#achievements-section" class="nav-link"><span>Achievements</span></a></li>
+          <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <section id="home-section" class="hero">
+    <div class="home-slider owl-carousel">
+      <div class="slider-item ">
+        <div class="overlay"></div>
+        <div class="container">
+          <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end"
+            data-scrollax-parent="true">
+            <div class="one-third js-fullheight order-md-last img" style="background-image:url(images/main_pic.png);">
+              <div class="overlay"></div>
+            </div>
+            <div class="one-forth d-flex align-items-center ftco-animate"
+              data-scrollax="properties: { translateY: '70%' }">
+              <div class="text">
+                <span class="subheading">Hello!</span>
+                <h1 class="mb-4 mt-3">I'm <span>Abhiram Gelle</span></h1>
+                <h2>Software Engineer</h2>
+                <p><a href="https://www.linkedin.com/in/gelle-abhiram-21332b1a0/"
+                    class="btn btn-primary py-3 px-4">LinkedIn</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-5 d-flex">
+          <div class="img-about img d-flex align-items-stretch">
+            <div class="overlay">
+              <div class="row">
+                <div class="col-sm-6 col-md-5">
+                  <div class="about-img">
+                    <img src="images/card_pic.png" class="img-fluid rounded b-shadow-a" alt="">
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-7">
+                  <div class="about-info">
+                    <p><span class="title-s">Name: </span> <span>Abhiram Gelle</span></p>
+                    <p><span class="title-s">Job Role: </span> <span>Software Engineer</span></p>
+                    <p><span class="title-s">Experience: </span> <span>3 Years</span></p>
+                    <p><span class="title-s">Address: </span> <span>Atlanta, Georgia</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skill-mf">
+                <p class="title-s">Skills</p>
+                <span>Java</span> <span class="pull-right"></span>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0"
+                    aria-valuemax="100"></div>
+                </div>
+
+                <span>React, Javascript</span> <span class="pull-right"></span>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="90" aria-valuemin="0"
+                    aria-valuemax="100"></div>
+                </div>
+
+                <span>Spring, Flask, FastAPI</span> <span class="pull-right"></span>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="80" aria-valuemin="0"
+                    aria-valuemax="100"></div>
+                </div>
+
+                <span>Ansible, Docker, Kubernetes</span> <span class="pull-right"></span>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="85" aria-valuemin="0"
+                    aria-valuemax="100"></div>
+                </div>
+
+                <span>Databases: SQL, Redis, MongoDB, Solr</span> <span class="pull-right"></span>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="75" aria-valuemin="0"
+                    aria-valuemax="100"></div>
+                </div>
+
+                <span>Android Development, Cordova</span> <span class="pull-right"></span>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0"
+                    aria-valuemax="100"></div>
+                </div>
+
+                <span>Web Development</span> <span class="pull-right"></span>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="70" aria-valuemin="0"
+                    aria-valuemax="100"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-7 pl-lg-5 pb-5">
+          <div class="row justify-content-start pb-3">
+            <div class="col-md-12 heading-section ftco-animate">
+              <h1 class="big">About</h1>
+              <h2 class="mb-4">About Me</h2>
+              <p>I am an experienced Full Stack Developer with over 3 years of professional expertise in designing,
+                developing, and delivering dynamic web applications and backend systems. My passion lies in building
+                seamless user experiences backed by powerful and scalable APIs. With a strong foundation in Java, React,
+                and JavaScript, I specialize in creating clean, responsive, and maintainable interfaces that bring ideas
+                to life.</p>
+              <p>On the backend, I’ve built robust services using frameworks like Spring Boot, Flask, and FastAPI. My
+                work often involves integrating complex databases ranging from SQL and Redis to MongoDB and Solr;
+                ensuring smooth data flow, security, and optimized performance. I thrive in end to end development,
+                confidently managing everything from system design and implementation to deployment and monitoring.</p>
+              <p>While full stack development is my core strength, I bring a DevOps mindset to the table, understanding
+                the importance of automation, scalability, and efficiency. I have hands-on experience with tools like
+                Docker, Kubernetes, Ansible, and Terraform, as well as CI/CD pipelines using Jenkins, GitLab CI, and
+                GitHub Actions. This enables me to build systems that are not only functional but also production ready
+                and easy to maintain.</p>
+              <p>I’m constantly exploring new technologies and design patterns to push the boundaries of what I can
+                build. Whether it's a web app, a mobile interface, or a backend service, I approach each project with a
+                deep focus on quality, usability, and impact. My goal is to continue crafting scalable software
+                solutions and contribute meaningfully as a dependable full stack engineer.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resume Section -->
+  <section class="ftco-section ftco-no-pb" id="resume-section">
+    <div class="container">
+      <div class="row justify-content-center pb-5">
+        <div class="col-md-10 heading-section text-center ftco-animate">
+          <h1 class="big big-2">Resume</h1>
+          <h2 class="mb-4">Resume</h2>
+          <p>Purpose driven Full Stack Developer with a DevOps mindset and 3 years of experience in building scalable
+            applications, automating workflows, and ensuring high performance systems in production environments.</p>
+        </div>
+      </div>
+
+      <div class="row justify-content-center mt-3">
+        <div class="col-md-6 text-center ftco-animate">
+          <p><a href="https://drive.google.com/file/d/1L49bs__rFeYDXCcJWcMOnWdRitiKpORE/view?usp=sharing"
+              class="btn btn-primary py-4 px-5">Download Resume</a></p>
+        </div>
+      </div>
+
+      <div class="row">
+        <h1 class="big-4">Experience</h1>
+        <div class="underline"></div>
+      </div>
+      <br>
+
+      <div class="row">
+        <div>
+          <div class="resume-wrap ftco-animate">
+            <span class="date">Sep'2024 - Present</span>
+            <h2>Full Stack Developer - Graduate Assistantship</h2>
+            <span class="position">Georgia State University</span>
+            <p class="mt-4">
+            <ul>
+              <li>Developed the OGMS application using Python FastAPI and React, implementing RESTful APIs and handling
+                AJAX requests for dynamic data updates, which improved data processing efficiency.</li>
+              <li>Integrated AG-Grid for efficient data visualization and used Tailwind CSS to enhance UI styling,
+                resulting in a more user-friendly interface.</li>
+              <li>Designed and documented backend API endpoints with Swagger, ensuring structured communication between
+                frontend and backend, which facilitated smoother integration and reduced development time.</li>
+            </ul>
+            </p>
+          </div>
+        </div>
+
+        <div>
+          <div class="resume-wrap ftco-animate">
+            <span class="date">June'2022 - Aug'2024</span>
+            <h2>Software Engineer</h2>
+            <span class="position">Optival Health Solutions Pvt Ltd - MedPlus</span>
+            <p class="mt-4">
+            <ul>
+              <li>Developed full-stack applications using React, Spring Boot, and REST APIs, ensuring seamless
+                frontend-backend integration, which improved application performance and user experience.</li>
+              <li>Designed a reusable DataGrid component with advanced features like filters, pagination, and sorting,
+                enhancing data management efficiency across all in-house applications used in MedPlus.</li>
+              <li>Upgraded a Progressive Web App to React 18, integrating server-side rendering, streaming, and suspense
+                APIs to improve loading times and boost user engagement.</li>
+              <li>Engineered a MySQL reporting tool with RESTful APIs for real-time data access, facilitating quicker
+                decision-making and data analysis.</li>
+              <li>Built APIs to manage user sessions across platforms using Redis caching and MongoDB persistence,
+                improving session reliability and enhancing user experience.</li>
+              <li>Enhanced build efficiency using Webpack and Vite, optimizing performance and deployment speed for
+                faster application load times.</li>
+              <li>Developed a cross-platform native app using Apache Cordova, ensuring compatibility with both Android
+                and iOS devices for a seamless user experience.</li>
+              <li>Built scalable, high-performance applications using Java and JavaScript frameworks like React and
+                Angular, improving system reliability and user satisfaction.</li>
+            </ul>
+            </p>
+          </div>
+        </div>
+
+        <div>
+          <div class="resume-wrap ftco-animate">
+            <span class="date">Jan'2022 - June'2022</span>
+            <h2>Associate Software Engineer</h2>
+            <span class="position">Hughes Systique Corporations</span>
+            <p class="mt-4">
+            <ul>
+              <li>Worked as a DevOps Engineer, automating CI/CD pipelines and enhancing deployment processes, leading to
+                more efficient software releases.</li>
+              <li>Developed and optimized automation scripts for seamless deployment using containerization and
+                orchestration tools, resulting in reduced deployment time and increased system stability.</li>
+            </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+      <br><br>
+
+      <div class="row">
+        <h1 class="big-4">Education</h1>
+        <div class="underline"></div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="resume-wrap ftco-animate">
+            <span class="date">Aug'2024 - Present</span>
+            <h2>Master's in Computer Science</h2>
+            <span class="position">Georgia State University</span>
+            <p class="mt-4">Atlanta, Georgia</p>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="resume-wrap ftco-animate">
+            <span class="date">May'2018 - June'2022</span>
+            <h2>Bachelor's in Computer Science</h2>
+            <span class="position">BML Munjal University</span>
+            <p class="mt-4">Delhi, India</p>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="ftco-section" id="project-section">
+    <div class="container">
+      <div class="row justify-content-center mb-5 pb-5">
+        <div class="col-md-7 heading-section text-center ftco-animate">
+          <h1 class="big big-2">Projects</h1>
+          <h2 class="mb-4">Projects</h2>
+          <p>Below are some of the projects I have worked on, during my bachelor's academics and internship tenure in
+            the software engineering domain.</p>
+        </div>
+      </div>
+      <div class="row d-flex">
+        <div class="col-md-6 d-flex ftco-animate">
+          <div class="blog-entry justify-content-end">
+            <a href="#project-section" class="block-20 zoom-effect" style="background-image: url('images/bpm.png');">
+            </a>
+            <div class="text mt-3 float-right d-block">
+              <h3 class="heading"><a href="#">eBPM Portal</a></h3>
+              <p>The eBPM Portal is a full stack web application developed to streamline business process management by
+                digitizing
+                and automating task workflows within an organization. Built using FastAPI (Python) for the backend and
+                Angular for the
+                frontend, the portal enables efficient task assignment, tracking, and role-based access management.</p>
+
+              <p>Key features include CRUD-based user and task management, group and role assignment, and an intuitive
+                UI for managers
+                and employees to monitor individual, group, and reportee tasks. Data is securely stored in MongoDB, with
+                real-time
+                updates facilitated by FastAPI’s RESTful services. The portal also includes robust logging via a task
+                history module,
+                helping maintain transparency and traceability.</p>
+
+              <p>Designed during a Practice School internship at EAIESB Software Solutions, this project emphasizes
+                minimizing manual
+                intervention, improving organizational efficiency, and delivering a modern, user friendly experience for
+                process
+                management.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 d-flex ftco-animate">
+          <div class="blog-entry justify-content-end">
+            <a href="#project-section" class="block-20 zoom-effect" style="background-image: url('images/goo.png');">
+            </a>
+            <div class="text mt-3 float-right d-block">
+              <h3 class="heading"><a href="#">Grab Online Order [GOO]</a></h3>
+              <p>Grab Online Order (GOO) is a mobile and web based food ordering platform developed to eliminate
+                unnecessary
+                delivery
+                charges and reduce customer wait times. Unlike traditional food delivery apps, GOO allows users to place
+                orders from
+                nearby restaurants and pick them up directly enabling cost savings and timely access to meals.</p>
+
+              <p>Designed during a foundational entrepreneurship course, GOO was validated through customer surveys and
+                feedback
+                from
+                over 39 users, with 86% recognizing the core problem. The solution offers features like real time order
+                notifications,
+                digital payments, and flexible pickup options, making it ideal for students, bachelors, and working
+                professionals
+                who
+                seek affordability and convenience.</p>
+
+              <p>By removing the dependency on delivery agents and avoiding extra fees, GOO empowers both customers and
+                restaurants
+                while delivering a scalable and sustainable food ordering experience.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 d-flex ftco-animate">
+          <div class="blog-entry justify-content-end">
+            <a href="#project-section" class="block-20 zoom-effect"
+              style="background-image: url('images/flyeasy.png');">
+            </a>
+            <div class="text mt-3 float-right d-block">
+              <h3 class="heading"><a href="#">FlyEasy</a></h3>
+              <p>Fly Easy is a smart, AI powered web application developed to help students find the most suitable
+                universities abroad
+                based on their academic profiles, preferences, and constraints. The platform leverages machine learning
+                algorithms and
+                web scraping techniques to recommend graduate programs tailored to the user’s qualifications, budget,
+                location
+                preferences, and desired course of study.</p>
+
+              <p>The system was built as part of an bachelor's academic capstone project and presented at the ICCCN 2022
+                conference. It collects
+                real time university data, ranks institutions using a weighted scoring model, and presents personalized
+                suggestions to
+                students through a clean and user friendly interface.</p>
+
+              <p>By combining intelligent filtering, profile analysis, and dynamic data retrieval, Fly Easy
+                significantly reduces the
+                time and effort students typically spend researching options offering them a guided path to make
+                informed, data backed
+                decisions about their higher education.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Blogs Section -->
+  <section class="ftco-section" id="blogs-section">
+    <div class="container">
+      <div class="row justify-content-center mb-5 pb-5">
+        <div class="col-md-7 heading-section text-center ftco-animate">
+          <h1 class="big big-2">My Blogs</h1>
+          <h2 class="mb-4">Explore My Articles</h2>
+          <p>Here are some of my recent blog posts where I discuss various topics related to my experiences and
+            learnings.</p>
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-md-8 text-center">
+          <a href="https://medium.com/@abhiramgelle738" target="_blank" class="btn btn-primary py-4 px-5">Read My
+            Blogs</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Testimonials Section -->
+  <section class="ftco-section" id="testimonials-section">
+    <div class="container">
+      <div class="row justify-content-center mb-5 pb-5">
+        <div class="col-md-7 heading-section text-center ftco-animate">
+          <h1 class="big big-2">Testimonials</h1>
+          <h2 class="mb-4">What People Say</h2>
+          <p>Here are some testimonials from my colleagues and mentors who have worked closely with me.</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <!-- Testimonial 1 -->
+        <div class="col-md-4 d-flex ftco-animate">
+          <div class="blog-entry justify-content-end">
+            <div class="text mt-3 float-right d-block">
+              <h3 class="heading">Sameer Singh</h3>
+              <p class="position">Associate Manager at MedPlus</p>
+              <p>
+                "In the assigned projects, he conversed properly with team members and adjusted to the team
+                very quickly. He grasped the complex concepts during his involvement of work with react or
+                spring embedded applications. Also, he had got acquainted with various databases through
+                his work including mysql, redis and solr. Right from day one, he was very committed and
+                made sure to deliver in high spirits. He is one of those who refuse to give up on problems.
+                Seeing his conduct, he was given the opportunity to work directly with MedplusMart
+                E-commerce application (App and Website). With his adept skill set and proactive mindset,
+                many times he has foreseen and corrected issues within the project which otherwise would
+                have been showstoppers. His incredible contribution towards the tasks and works was not
+                only appreciated by me but also personally by the corresponding managers."
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial 2 -->
+        <div class="col-md-4 d-flex ftco-animate">
+          <div class="blog-entry justify-content-end">
+            <div class="text mt-3 float-right d-block">
+              <h3 class="heading">Anurag Singh</h3>
+              <p class="position">Team Lead of MedPlus Mart Team at MedPlus</p>
+              <p>
+                “As Abhiram's lead in the MedPlus Mart team, I was continually impressed by his full-stack expertise
+                across React,
+                Spring Boot, and database systems. He played a pivotal role in building scalable features, optimizing
+                performance, and
+                improving system integration. His ability to bridge frontend and backend workflows, along with his
+                initiative in
+                enhancing DevOps processes, made him a key contributor to our team's success.
+
+                Abhiram’s development of reusable components like the DataGrid significantly improved efficiency across
+                multiple
+                internal applications. His proactive mindset, attention to detail, and commitment to clean architecture
+                made
+                collaboration effortless and elevated the overall code quality within the team.”
+
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial 3 -->
+        <div class="col-md-4 d-flex ftco-animate">
+          <div class="blog-entry justify-content-end">
+            <div class="text mt-3 float-right d-block">
+              <h3 class="heading">Xiaojun Cao</h3>
+              <p class="position">Manager of OGMS team at Georgia State University</p>
+              <p>
+                “For Graduate student's portal - OGMS project, I’ve had the pleasure of witnessing his strong backend
+                and frontend
+                capabilities firsthand. He played a critical role in developing the application using Python FastAPI and
+                React,
+                ensuring seamless integration through well documented RESTful APIs and dynamic data handling with AJAX.
+
+                Abhiram’s attention to clean design, both in code and UI, elevated the project’s usability especially
+                through his
+                integration of AG-Grid and Tailwind CSS. His commitment to clarity in API documentation via Swagger, and
+                his proactive
+                communication, significantly accelerated development timelines and made cross functional collaboration
+                smooth and
+                efficient.”
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  
+
+
+  <!-- Contact Section -->
+  <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+    <div class="container">
+      <div class="row justify-content-center mb-5 pb-3">
+        <div class="col-md-7 heading-section text-center ftco-animate">
+          <h1 class="big big-2">Contact</h1>
+          <h2 class="mb-4">Contact Me</h2>
+          <p>Below are the details to reach out to me!</p>
+        </div>
+      </div>
+
+      <div class="row d-flex contact-info mb-5">
+        <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          <div class="align-self-stretch box p-4 text-center">
+            <div class="icon d-flex align-items-center justify-content-center">
+              <span class="icon-map-signs"></span>
+            </div>
+            <h3 class="mb-4">Address</h3>
+            <p>Atlanta City, Georgia</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          <div class="align-self-stretch box p-4 text-center">
+            <div class="icon d-flex align-items-center justify-content-center">
+              <span class="icon-phone2"></span>
+            </div>
+            <h3 class="mb-4">Contact Number</h3>
+            <p><a href="tel://8166144801">+1 678-480-4408</a></p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          <div class="align-self-stretch box p-4 text-center">
+            <div class="icon d-flex align-items-center justify-content-center">
+              <span class="icon-paper-plane"></span>
+            </div>
+            <h3 class="mb-4">Email Address</h3>
+            <p><a href="mailto:vemulasaiharsha@gmail.com">abhiramgelle738@gmail.com</a></p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          <div class="align-self-stretch box p-4 text-center">
+            <div class="icon d-flex align-items-center justify-content-center">
+              <span class="icon-globe"></span>
+            </div>
+            <h3 class="mb-4">Download Resume</h3>
+            <p><a href="https://drive.google.com/file/d/1L49bs__rFeYDXCcJWcMOnWdRitiKpORE/view?usp=sharing"
+                target="_blank">Drive Link</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <br><br>
+        <div class="row justify-content-center">
+          <div class="col-md-7 ftco-animate text-center">
+            <h2>Wanna Have a meeting and know more about me? <a href="https://calendly.com/abhiramgelle738/30min"
+                class="btn btn-primary py-3 px-5">Schedule a Meeting</a> </h2>
+          </div>
+        </div>
+        <br>
+        <ul class="ftco-footer-social list-unstyled d-flex justify-content-center align-items-center mb-0">
+          <li class="ftco-animate normal-txt">Find me on </li>
+          <li class="ftco-animate"><a href="https://www.linkedin.com/in/gelle-abhiram-21332b1a0/"><span
+                class="icon-linkedin"></span></a></li>
+        </ul>
+        <br>
+      </div>
+    </div>
+  </section>
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
+      <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+      <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+        stroke="#F96D00" />
+    </svg></div>
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
