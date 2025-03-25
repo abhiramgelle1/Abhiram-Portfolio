@@ -11,5 +11,6 @@ This repository contains the source code for my personal portfolio website, show
 
 ## Contact
 For any inquiries, reach out via:
-- Email: abhiram.gelle@example.com
-- LinkedIn: [linkedin.com/in/abhiramgelle](https://www.linkedin.com/in/gelle-abhiram-21332b1a0/)
+- Email: abhiramgelle738@gmail.com
+- LinkedIn: https://www.linkedin.com/in/gelle-abhiram-21332b1a0/
+- Phone: +1 678-480-4408
